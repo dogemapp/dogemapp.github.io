@@ -28,6 +28,23 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline overline dotted red;
+  }
+  
 #ajax-loader {
     display: none;
 }
