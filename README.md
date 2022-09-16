@@ -15,6 +15,3 @@ Include the following content (organize webpages yourself)
   documentations, etc.
   o Presentation slides
   o Links to live demonstration site if there is. Provide instructions if needed.
-
-
-
