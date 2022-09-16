@@ -28,6 +28,8 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+/*
 a:link {
     color: white;
     background-color: transparent;
@@ -44,7 +46,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline overline dotted red;
   }
-  
+ */ 
 #ajax-loader {
     display: none;
 }
@@ -135,7 +137,7 @@ form {
 }
 .boxes-container {
     margin: auto;
-    margin-top: -1em;
+    margin-top: -0.25em;
     padding: 6em 3em;
     padding-top: 0em;
     background-color: #FFFFFF;
@@ -818,3 +820,14 @@ img.bg {
     left: 0;
     z-index: -1;
 }
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
