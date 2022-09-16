@@ -7,6 +7,7 @@ Minimum display information on the home page is:
   - team members
   - semester
   - links to the course, department, and university
+
 Include the following content (organize webpages yourself)
   - Links to all milestone reports.
   - Links to project files like Project Charter, Project Plan, Gantt Chart,
