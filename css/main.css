@@ -21,8 +21,8 @@ img {
 a.nav:link, a.nav:visited {
     background-color: #005099;
     color: white;
-    padding: 14px 50px;
-    text-align: center;
+    padding-inline: 50px;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
   }
@@ -328,7 +328,7 @@ h1 {
     margin-bottom: 0.2em;
 }
 .home-box h1 {
-    text-size-adjust: 15px;
+    text-size-adjust: 10px;
     text-align: inline;
     padding-left: 0;
     margin-left: -10;
@@ -388,7 +388,7 @@ img.bg {
 
 .mainpage-display {
     margin: 10em auto auto !important; 
-    padding-left:9em;
+    padding-left:2em;
     width: 100% !important; 
     text-align: left !important;
 }
@@ -500,7 +500,7 @@ img.bg {
 #quote-container {
     background-color: #E0F0FF;
     display: block;
-    margin-left: -150px;
+    margin-left: -2em;
     height: 400px;
 }
 #social-media {
