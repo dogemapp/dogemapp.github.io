@@ -17,9 +17,20 @@ body {
 img {
     border: none;
 }
-a {
+
+a.nav:link, a.nav:visited {
+    background-color: #005099;
+    color: white;
+    padding: 14px 50px;
+    text-align: center;
     text-decoration: none;
-}
+    display: inline-block;
+  }
+  
+  a.nav:hover, a.nav:active {
+    background-color: red;
+  }
+  
 #footer a,
 p a {
     color: #005099;
@@ -38,7 +49,7 @@ a:link {
     padding-bottom: 3px;
     margin-bottom: 16px;
     width: 100%;
-    text-align: Left;
+    text-align: inline;
 }
 /*
   a:visited {
@@ -294,7 +305,7 @@ p {
 }
 h1 {
     font-family: "Nunito", sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: #005099;
     padding-bottom: 3px;
@@ -313,17 +324,18 @@ h1 {
 .home-box img {
     display: block;
     width: 30%;
-    margin: auto;
+    margin: center;
     margin-bottom: 0.2em;
 }
 .home-box h1 {
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    text-size-adjust: 15px;
+    text-align: inline;
+    padding-left: 0;
+    margin-left: -10;
     margin-bottom: 0.2em;
 }
 .home-box p {
-    text-align: center;
+    text-align: inline;
 }
 img.bg {
     min-height: 100%;
@@ -487,6 +499,8 @@ img.bg {
 }
 #quote-container {
     background-color: #E0F0FF;
+    display: block;
+    margin-left: -150px;
     height: 400px;
 }
 #social-media {
@@ -755,8 +769,6 @@ img.bg {
     padding-left: 5em;
 }
 #contact-form {
-    padding: 2em;
-    padding-left: 5em;
     background-color: #dedede;
 }
 #contact-form input {
@@ -779,24 +791,7 @@ img.bg {
     font-size: 0.7em;
     margin-bottom: 0.5em;
 }
-#contact-form-layout {
-    width: 90%;
-    margin: auto;
-    margin-top: 5em;
-    margin-bottom: 5em;
-}
-#contact-form-layout .textbox {
-    width: 24em;
-}
-#contact-form-layout .textfield {
-    width: 22.75em;
-    height: 10em;
-    margin-bottom: 1em;
-}
-#contact-form-layout button {
-    width: 24em;
-    border-radius: 0.15em;
-}
+
 @media screen and (max-width: 62em) {
     .display {
         margin-top: 0;
@@ -807,7 +802,6 @@ img.bg {
     }
     #contact-form {
         padding: 0.5em;
-        padding-left: 1em;
         padding-bottom: 1em;
     }
 }
