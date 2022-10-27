@@ -18,6 +18,18 @@ img {
     border: none;
 }
 
+h1.new {
+    font-family: "Nunito", sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    padding-bottom: 3px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 350px;
+    text-align: inline;
+}
+
+
 a.nav:link, a.nav:visited {
     background-color: #005099;
     color: white;
