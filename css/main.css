@@ -842,3 +842,7 @@ img.bg {
     display: table;
     clear: both;
   }
+
+.mobileul {
+    list-style-position: inside;
+}
