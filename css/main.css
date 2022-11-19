@@ -398,6 +398,13 @@ img.bg {
     font-size: 40px;
 }
 
+.mobilepage-display {
+    margin: 5em auto auto !important; 
+    padding-left:2em;
+    width: 100% !important; 
+    text-align: left !important;
+}
+
 .mainpage-display {
     margin: 10em auto auto !important; 
     padding-left:2em;
@@ -771,6 +778,7 @@ img.bg {
     width: 100%;
     z-index: 2;
 }
+
 #main-content {
     position: relative;
     width: 100%;
