@@ -159,6 +159,22 @@ form {
     color: #ff0000;
     font-weight: 600;
 }
+.logo {
+    /* other styles goes here... */
+    display: inline-block;
+    vertical-align: top;
+}
+table, th, td{
+    list-style-type: none;
+    border: 1px solid;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+  }
+.li-formatted {
+    font-weight: 400;
+    font-size: 10px;
+}
 .area {
     width: 80%;
     margin: auto;
