@@ -195,7 +195,7 @@ form {
     margin-right: auto;
     min-height: 600px;
     height: auto !important;
-    height: 600px;
+    height: 600px; 
     padding-top: 2px;
     padding-bottom: 4px;
 }
