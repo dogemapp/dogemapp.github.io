@@ -799,7 +799,7 @@ img.bg {
 #main-content {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow-y: auto;
 }
 #content-padding {
     padding: 2em;
