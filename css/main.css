@@ -398,6 +398,10 @@ img.bg {
     font-size: 40px;
 }
 
+.icon-glow {
+    filter: drop-shadow(0px -8px 6px #dbdbee);
+}
+
 .mobilepage-display {
     margin: 5em auto auto !important; 
     align-content: center;
