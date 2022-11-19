@@ -400,9 +400,20 @@ img.bg {
 
 .mobilepage-display {
     margin: 5em auto auto !important; 
-    padding-left:2em;
+    align-content: center;
     width: 100% !important; 
-    text-align: left !important;
+    text-align: center !important;
+}
+.mobilepage-heading {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 4em;
+}
+.mobilepage-p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
 }
 
 .mainpage-display {
