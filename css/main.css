@@ -409,6 +409,7 @@ img.bg {
     align-content: center;
     width: 100% !important; 
     text-align: center !important;
+    overflow-y: scroll;
 }
 .mobilepage-heading {
     text-align: center;
