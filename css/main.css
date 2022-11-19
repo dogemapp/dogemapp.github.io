@@ -162,6 +162,7 @@ form {
 .area {
     width: 80%;
     margin: auto;
+    overflow-y: auto;
 }
 .boxes-container {
     margin: auto;
