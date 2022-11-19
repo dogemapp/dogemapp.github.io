@@ -162,7 +162,7 @@ form {
 .area {
     width: 80%;
     margin: auto;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 .boxes-container {
     margin: auto;
@@ -799,7 +799,7 @@ img.bg {
 #main-content {
     position: relative;
     width: 100%;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 #content-padding {
     padding: 2em;
