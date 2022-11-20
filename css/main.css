@@ -20,7 +20,7 @@ img {
 
 h1.new {
     font-family: "Nunito", sans-serif;
-    font-size: 75px;
+    font-size: 40px;
     color: #ffffff;
     padding-bottom: 3px;
     margin-bottom: 40px;
@@ -261,33 +261,7 @@ table, th, td{
     width: 100%;
     background-color: #FFFFFF;
 }
-.footer-left {
-    float: left;
-    display: inline;
-    width: 21%;
-    margin: 1%;
-}
-.footer-left ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.footer-left ul li {
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-    color: #000000;
-    margin-bottom: 0.8em;
-}
-.footer-left ul li img {
-    float: left;
-}
-.footer-left ul li a {
-    display: block;
-}
-.footer-left ul li a:hover {
-    text-decoration: underline;
-}
+
 .footer-right {
     float: right;
     display: inline;
